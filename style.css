@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kenia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.left img{
+    width: 60px;
+    height: 60px;
+}
+
+.left .name h3{
+    font-size: 18px;
+}
+
+.right{
+    margin-right: 1rem;
+}
+
+.right i{
+    margin-right: 1.5rem;
+    font-size: 20px;
+}
+
+#second{
+    margin-right: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20889F;
+    padding: 1rem;
+    color: white;
+    height: 70px;
+}
+
+.posting{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Kenia', cursive;
+    font-size: 1.5rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links ul li{
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#name1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    background-color:#F5F5F5;
+}
+
+.sidebar{
+    background-color: #FFFFFF;
+    width: 8rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.623);
+}
+
+.sidebar section{
+    /* border: 2px solid red; */
+    padding: 1rem;
+    background-color: #FFFFFF;
+    width: 8rem;
+}
+
+.hvr:hover{
+    background-color: #D2E7EC;
+    border-radius: 10px;
+}
+
+.long{
+    width: 40rem;
+    background-color: #FFFFFF;
+}
+
+.longpadding{
+    padding: 1rem;
+}
+
+.paticipants{
+    color: #20889F;
+}
+
+.profiles-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-bottom: 2px solid grey;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.profile img{
+    width: 80px;
+    height: 75px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.john{
+    font-size: 1.2rem;
+}
+
+.article{
+    color: grey;
+}
