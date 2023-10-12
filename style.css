@@ -121,7 +121,7 @@ nav{
     box-shadow: 3px 3px 3px gray;
 }
 
-.paticipants{
+.participants{
     color: #20889F;
 }
 
@@ -203,6 +203,7 @@ nav{
     padding: .8rem;
     background-color: #20889F;
     border-radius: 1.2rem;
+    outline: 1px solid;
 }
 
 .followers{
